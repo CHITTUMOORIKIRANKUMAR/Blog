@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
 dotenv.config(); 
-
+//Connecting to DB
 mongoose.connect(process.env.MONGO).then(
     ()=>{
         console.log("MongoDB is Connected")
@@ -11,6 +11,7 @@ mongoose.connect(process.env.MONGO).then(
         console.log(err)
     })
 
+    //Create Server
 const app =express();
 
 app.listen(3000, ()=>{
