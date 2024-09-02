@@ -3,10 +3,9 @@ import React from 'react'
 const Dashboard = () => {
   return (
     <div>
-      Dashboard
+      Dasboard
     </div>
   )
 }
 
 export default Dashboard
-Dashboard
